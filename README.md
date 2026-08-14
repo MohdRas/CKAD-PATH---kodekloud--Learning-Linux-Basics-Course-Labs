@@ -44,5 +44,8 @@ CKAD PATH - kodekloud- Learning Linux Basics Course &amp; Labs
         - mv /home/rasid/Asia/India /home/rasid/America/NewYork - "India" directory will be moved inside "NewYork" directory
         - cp source-file destination-dir
         - cp /home/rasid/Asia/India/city.txt /home/rasid/America/NewYork - "city.txt" file will be moved inside "NewYork" directory
+        - cp -r - "-r" for recursive operations.
+    - rm - remove a file or a directory
+        - rm /home/rasid/Asia/India
 
      
