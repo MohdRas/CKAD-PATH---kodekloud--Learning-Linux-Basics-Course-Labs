@@ -5,11 +5,11 @@ CKAD PATH - kodekloud- Learning Linux Basics Course &amp; Labs
 #SHELL 
 - program that allows text-based-interaction between user & os.
 - one of such shell is "bash shell"
-- #TYPE
+- **TYPE**
     - linux shell - terminal
     - ubuntu desktop / graphical view
     -
-- HOME directory
+- **HOME directory**
     - Different for each user
     - other users cannot access the HOME directory.
     - HOME directory is represented by ~ (TILDE)
@@ -21,17 +21,17 @@ CKAD PATH - kodekloud- Learning Linux Basics Course &amp; Labs
         - **It will directly move to HOME directory.**
         - If nothing specified after "cd" command then it will automatically go to HOME directory.
         - 
-- COMMANDS & ARGUMENTS
+- **COMMANDS & ARGUMENTS**
     - echo Hello World - Here "echo" is command and "Hello World" is an argument.
     - uptime - Here "uptime" is command.
     - echo -n Hello World - Here "-n" is a "SWITCH / FLAG" - printing without new line.
     -
-- COMMANDS TYPES
+- **COMMANDS TYPES**
      - internal / built-in - echo , cd, pwd
      - external - mv, date , uptime, cd
      - type "command" - it will tell us if a command is internal or external.
      -
-- BASIC LINUX COMMANDS
+- **BASIC LINUX COMMANDS**
     - pwd -  present working directory
     - ls - list contents ls
     - mkdir - make new "list of directories" 
