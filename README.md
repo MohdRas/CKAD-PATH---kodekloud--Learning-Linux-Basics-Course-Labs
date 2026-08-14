@@ -8,21 +8,24 @@ CKAD PATH - kodekloud- Learning Linux Basics Course &amp; Labs
 - TYPE
     - linux shell - terminal
     - ubuntu desktop / graphical view
-- HOME DIRECTORY
-    - Different for each user - /home/rasid and /home/rehan.
-    - other users cannot access the home directory.
-    - home directory is represented by ~ (TILDE)
+- HOME directory
+    - Different for each user
+    - other users cannot access the HOME directory.
+    - HOME directory is represented by ~ (TILDE)
+    - echo $HOME - print HOME directory
+    - mohdrasid@mohd-rasid01:~$ - TIDLE (~) means HOME directory
+    - If "/" is in-place of "~" then it is a ROOT directory
+
 - COMMANDS & ARGUMENTS
     - echo Hello World - Here "echo" is command and "Hello World" is an argument.
     - uptime - Here "uptime" is command.
-    - echo -n Hello World - Here "-n" is a "SWITCH / FLAG" - PRINITING WITHOUT TRAILING NEW LINE
+    - echo -n Hello World - Here "-n" is a "SWITCH / FLAG" - printing without new line.
 - COMMANDS TYPES
      - internal / built-in - echo , cd, pwd
      - external - mv, date , uptime, cd
      - type "command" - it will tell us if a command is internal or external.
-- basic linux commands
-    - pwd -  present working directory pwd
-    - pwd $home - print home directory
+- BASIC LINUX COMMANDS
+    - pwd -  present working directory
     - ls - list contents ls
     - mkdir - make new "list of directories" 
         - mkdir Asia Europe Africa America 
@@ -30,24 +33,24 @@ CKAD PATH - kodekloud- Learning Linux Basics Course &amp; Labs
         - mkdir -p Asia/India/Mumbai - "-p" make sure parent directory also got created.
     - cd - change directory cd dir1
         - cd .. -  one step back
-        - cd  - back to home directory
-        - cd /home/rasid - back to specific directory
+        - cd  - back to HOME directory
+        - cd /HOME/rasid - back to specific directory
         - absolute path
             - path from "root" to specific directory "Mumbai" 
-            - pwd - /home/rasid/Asia
-            - cd /home/rasid/Asia/India/Mumbai - "/" is the root directory. 
+            - pwd - /HOME/rasid/Asia
+            - cd /HOME/rasid/Asia/India/Mumbai - "/" is the root directory. 
         - relative path
             - path from "current" directory to specific directory "Mumbai" 
-            - pwd - /home/rasid/Asia
+            - pwd - /HOME/rasid/Asia
             - cd India/Mumbai - "/" is the root directory.
     - mv -  move file or directory
         - mv source-dir destination-dir
-        - mv /home/rasid/Asia/India /home/rasid/America/NewYork - "India" directory will be moved inside "NewYork" directory
+        - mv /HOME/rasid/Asia/India /HOME/rasid/America/NewYork - "India" directory will be moved inside "NewYork" directory
         - cp source-file destination-dir
-        - cp /home/rasid/Asia/India/city.txt /home/rasid/America/NewYork - "city.txt" file will be moved inside "NewYork" directory
+        - cp /HOME/rasid/Asia/India/city.txt /HOME/rasid/America/NewYork - "city.txt" file will be moved inside "NewYork" directory
         - cp -r - "-r" for recursive operations.
     - rm - remove a file or a directory
-        - rm /home/rasid/Asia/India
+        - rm /HOME/rasid/Asia/India
     - cat - to print file content
         - cat fileName - print
         - cat > fileName - open, edit & save ( control+d)
