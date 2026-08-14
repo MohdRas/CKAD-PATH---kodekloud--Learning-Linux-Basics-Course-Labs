@@ -31,5 +31,18 @@ CKAD PATH - kodekloud- Learning Linux Basics Course &amp; Labs
         - cd .. -  one step back
         - cd  - back to home directory
         - cd /home/rasid - back to specific directory
+        - absolute path
+            - path from "root" to specific directory "Mumbai" 
+            - pwd - /home/rasid/Asia
+            - cd /home/rasid/Asia/India/Mumbai - "/" is the root directory. 
+        - relative path
+            - path from "current" directory to specific directory "Mumbai" 
+            - pwd - /home/rasid/Asia
+            - cd India/Mumbai - "/" is the root directory.
+    - mv -  move file or directory
+        - mv source-dir destination-dir
+        - mv /home/rasid/Asia/India /home/rasid/America/NewYork - "India" directory will be moved inside "NewYork" directory
+        - cp source-file destination-dir
+        - cp /home/rasid/Asia/India/city.txt /home/rasid/America/NewYork - "city.txt" file will be moved inside "NewYork" directory
 
      
