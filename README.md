@@ -65,6 +65,10 @@ CKAD PATH - kodekloud- Learning Linux Basics Course &amp; Labs
         - rm Asia/India/Mumbai/new-file.txt
         - It will remove the file - "new-file.txt"
         -
+   - rm **-r** file_path 
+        - rm -r Asia/India/Mumbai/new-file.txt
+        - It will remove **Asia and Indi and Mumbai and new-file.txt**
+        -
     - rm **-d** directory_path 
         - rm Asia/India/Mumbai
         - It will remove directory - "Mumbai"
