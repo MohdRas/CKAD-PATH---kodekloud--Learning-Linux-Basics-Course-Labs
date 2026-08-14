@@ -124,8 +124,11 @@ CKAD PATH - kodekloud- Learning Linux Basics Course &amp; Labs
     - korn shell ( ksh)
     - z shell ( zsh)
     - bourne again shell ( bash )
-    - echo $SHELL - /bin/bash
+    - echo $SHELL 
+        - "SHELL" is an environment variable.
+        - /bin/bash
     - chsh - change the shell.
+    - 
 - BASH shell features
   - auto completion - tab key will help
   - define alias
@@ -133,6 +136,13 @@ CKAD PATH - kodekloud- Learning Linux Basics Course &amp; Labs
     - dt
   - history of commands
     - history 
+  - environment variables
+   - store information about user's login session.
+   - env
+       - list down all env variables.
+   - export OFFICE=Gurgaon ---- DEFINE NEW ENV VARIABLE.
+   - echo $OFFICE 
+     - Gurgaon
     
     
 
