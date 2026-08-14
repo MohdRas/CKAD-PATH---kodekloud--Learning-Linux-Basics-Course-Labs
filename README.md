@@ -61,17 +61,27 @@ CKAD PATH - kodekloud- Learning Linux Basics Course &amp; Labs
         - "India" directory will go inside "NewYork" directory.
         - "India" will be removed from "Asia"
         - rename a directory - mv Asia/India/Munbai Asia/India/Mumbai - "Munbai" is renamed to "Mumbai".
-    - cp source-file destination-directory
+    - rm file_path 
+        - rm Asia/India/Mumbai/new-file.txt
+        - It will remove the file - "new-file.txt"
+        -
+    - rm **-d** directory_path 
+        - rm Asia/India/Mumbai
+        - It will remove directory - "Mumbai"
+        -
+    - cp file_path destination-directory
         - cp /HOME/rasid/Asia/India/city.txt /HOME/rasid/America/NewYork 
         - "city.txt" file will go inside "NewYork" directory.
         - cp -r - "-r" for recursive operations.
         -
     - rm - remove a file or a directory
         - rm /HOME/rasid/Asia/India
-    - cat - to print file content
+    - cat 
+        - to print file content
         - cat fileName - print
-        - cat > fileName - open, edit & save ( control+d)
-    - touch - create a new file
+        - cat > fileName - editor ( control+d )
+        - 
+    - touch - create a new **EMPTY** file.
     
 
      
