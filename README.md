@@ -28,5 +28,8 @@ CKAD PATH - kodekloud- Learning Linux Basics Course &amp; Labs
         - mkdir Asia/India/Mumbai 
         - mkdir -p Asia/India/Mumbai - "-p" make sure parent directory also got created.
     - cd - change directory cd dir1
+        - cd .. -  one step back
+        - cd  - back to home directory
+        - cd /home/rasid - back to specific directory
 
      
