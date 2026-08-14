@@ -74,14 +74,29 @@ CKAD PATH - kodekloud- Learning Linux Basics Course &amp; Labs
         - "city.txt" file will go inside "NewYork" directory.
         - cp -r - "-r" for recursive operations.
         -
-    - rm - remove a file or a directory
+    - rm file_path
+        - remove a file or a directory
         - rm /HOME/rasid/Asia/India
-    - cat 
+        -
+    - cat file_path
         - to print file content
-        - cat fileName - print
-        - cat > fileName - editor ( control+d )
+        - cat my-file 
+        -
+    - cat > file_path 
+        - editor opened. Edit it.
+        - To save , press key - control + d 
         - 
-    - touch - create a new **EMPTY** file.
+    - touch file_path-name
+        - create a new **EMPTY** file.
+        - touch my-empty-file
+        -
+    -  more file_path
+        - more large-file-data
+        - open file and we can scroll using "enter" key
+        -
+    -  less file_path
+        - less large-file-data
+        - open file and we can scroll using "enter" key
     
 
      
