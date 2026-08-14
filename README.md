@@ -29,7 +29,7 @@ CKAD PATH - kodekloud- Learning Linux Basics Course &amp; Labs
 - **COMMANDS TYPES**
      - internal / built-in - echo , cd, pwd
      - external - mv, date , uptime, cd
-     - type "command" - it will tell us if a command is internal or external.
+     - type "command" - it will tell us if a command is internal or external ( file on our system) .
      -
 - **BASIC LINUX COMMANDS**
     - pwd -  present working directory
