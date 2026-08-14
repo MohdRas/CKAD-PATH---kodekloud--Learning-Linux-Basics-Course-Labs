@@ -59,7 +59,8 @@ CKAD PATH - kodekloud- Learning Linux Basics Course &amp; Labs
         - mv source-dir destination-dir
         - mv /HOME/rasid/Asia/India /HOME/rasid/America/NewYork 
         - "India" directory will go inside "NewYork" directory.
-        -
+        - "India" will be removed from "Asia"
+        - rename a directory - mv Asia/India/Munbai Asia/India/Mumbai - "Munbai" is renamed to "Mumbai".
     - cp source-file destination-directory
         - cp /HOME/rasid/Asia/India/city.txt /HOME/rasid/America/NewYork 
         - "city.txt" file will go inside "NewYork" directory.
