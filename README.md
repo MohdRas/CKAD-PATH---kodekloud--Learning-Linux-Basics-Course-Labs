@@ -29,8 +29,9 @@ CKAD PATH - kodekloud- Learning Linux Basics Course &amp; Labs
     - ls - list contents ls
     - mkdir - make new "list of directories" 
         - mkdir Asia Europe Africa America 
-        - mkdir Asia/India/Mumbai 
-        - mkdir -p Asia/India/Mumbai - "-p" make sure parent directory also got created.
+        - cd Asia
+        - mkdir India/Mumbai - It will try to create "Mumbai" inside "India". Because "India" does not exist so it failed.
+        - mkdir -p India/Mumbai - "-p" make sure parent directory also got created.
     - cd - change directory cd dir1
         - cd .. -  one step back
         - cd  - back to HOME directory
