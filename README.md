@@ -13,17 +13,13 @@ CKAD PATH - kodekloud- Learning Linux Basics Course &amp; Labs
     - other users cannot access the HOME directory.
     - HOME directory is represented by ~ (TILDE)
     - echo $HOME 
-            
-            
-            - print HOME directory on CMD 
-            - mohdrasid@mohd-rasid01:~$ -> TIDLE (~) means HOME directory 
-            - If "/" is in-place of "~" then it is a ROOT directory
+        - print HOME directory on CMD 
+        - mohdrasid@mohd-rasid01:~$ -> TIDLE (~) means HOME directory 
+        - If "/" is in-place of "~" then it is a ROOT directory
     - cd
-            
-            
-            - **It will directly move to HOME directory.**
-            - If nothing specified after "cd" command then it will automatically go to HOME directory.
-            - 
+        - **It will directly move to HOME directory.**
+        - If nothing specified after "cd" command then it will automatically go to HOME directory.
+        - 
 - COMMANDS & ARGUMENTS
     - echo Hello World - Here "echo" is command and "Hello World" is an argument.
     - uptime - Here "uptime" is command.
