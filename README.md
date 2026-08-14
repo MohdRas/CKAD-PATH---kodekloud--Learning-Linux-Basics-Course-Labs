@@ -40,10 +40,10 @@ CKAD PATH - kodekloud- Learning Linux Basics Course &amp; Labs
         - mkdir India/Mumbai - It will try to create "Mumbai" inside "India". Because "India" does not exist so it failed.
         - mkdir -p India/Mumbai - "-p" make sure parent directory also got created.
         -
-    - cd - change directory cd dir1
-        - cd .. -  one step back
-        - cd  - back to HOME directory
-        - cd /HOME/rasid - back to specific directory
+    - cd - change directory
+        - cd .. -  one step back.
+        - cd  - back to HOME directory.
+        - cd /HOME/rasid - back to specific directory.
         -
     - ABSOLUTE path
         - path from "root" directory to specific directory "Mumbai" 
