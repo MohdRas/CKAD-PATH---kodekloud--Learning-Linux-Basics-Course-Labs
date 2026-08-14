@@ -102,7 +102,16 @@ CKAD PATH - kodekloud- Learning Linux Basics Course &amp; Labs
     - ls -a
         - list **hidden** files too.
     - ls -lt
-         - list file in the **order of creation.**
+        - list file in the **order of creation.**
+    - whatis command
+        - short descripion of a command
+        - whatis cp
+        - 
+    - man command
+         - manual page of a command
+         - man cp
+    - command --help    
+        - cp --help 
     
 
      
