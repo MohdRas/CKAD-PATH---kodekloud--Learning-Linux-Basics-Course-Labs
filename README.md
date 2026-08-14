@@ -140,10 +140,10 @@ CKAD PATH - kodekloud- Learning Linux Basics Course &amp; Labs
    - store information about user's login session.
    - env
        - list down all env variables.
-   - export OFFICE=Gurgaon ---- DEFINE NEW ENV VARIABLE.
-   - echo $OFFICE 
-     - Gurgaon
-     - 
+   - create new env variable
+       - export OFFICE=Gurgaon
+       - echo $OFFICE - Gurgaon
+       - to persist over subsequent login or reboots , define inside **.profile** or **.pam_environment** file under user's home directory.
     
     
 
