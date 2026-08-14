@@ -143,6 +143,7 @@ CKAD PATH - kodekloud- Learning Linux Basics Course &amp; Labs
    - export OFFICE=Gurgaon ---- DEFINE NEW ENV VARIABLE.
    - echo $OFFICE 
      - Gurgaon
+     - 
     
     
 
