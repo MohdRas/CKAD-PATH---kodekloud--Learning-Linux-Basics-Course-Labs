@@ -3,15 +3,15 @@ CKAD PATH - kodekloud- Learning Linux Basics Course &amp; Labs
 
 
 #SHELL 
-- PROGRAM THAT ALLOWS TEXT-BASED-INTERACTION BETWEEN USER & OS.
-- ONE OF SUCH SHELL IS "BASH SHELL"
+- program that allows text-based-interaction between user & os.
+- one of such shell is "bash shell"
 - TYPE
-    - LINUX SHELL - terminal
-    - UBUNTU DESKTOP / GRAPHICAL VIEW
+    - linux shell - terminal
+    - ubuntu desktop / graphical view
 - HOME DIRECTORY
-    - DIFFERENT FOR EACH USER - /home/rasid and /home/rehan
-    - OTHER USERS CANNOT ACCESS THE HOME DIRECTORY
-    - HOME DIRECTORY IS REPRESENTED BY ~ (TILDE)
+    - Different for each user - /home/rasid and /home/rehan.
+    - other users cannot access the home directory.
+    - home directory is represented by ~ (TILDE)
 - COMMANDS & ARGUMENTS
     - echo Hello World - Here "echo" is command and "Hello World" is an argument.
     - uptime - Here "uptime" is command.
