@@ -16,3 +16,9 @@ CKAD PATH - kodekloud- Learning Linux Basics Course &amp; Labs
     - echo Hello World - Here "echo" is command and "Hello World" is an argument.
     - uptime - Here "uptime" is command.
     - echo -n Hello World - Here "-n" is a "SWITCH / FLAG" - PRINITING WITHOUT TRAILING NEW LINE
+- COMMANDS TYPES
+     - internal / built-in - echo , cd, pwd
+     - external - mv, date , uptime, cd
+     - type "command" - it will tell us if a command is internal or external.
+
+     
