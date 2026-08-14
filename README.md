@@ -97,6 +97,12 @@ CKAD PATH - kodekloud- Learning Linux Basics Course &amp; Labs
     -  less file_path
         - less large-file-data
         - open file and we can scroll using "enter" key
+    - ls -l
+        - list additional details.
+    - ls -a
+        - list **hidden** files too.
+    - ls -lt
+         - list file in the **order of creation.**
     
 
      
