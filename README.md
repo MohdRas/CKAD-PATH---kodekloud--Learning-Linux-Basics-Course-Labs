@@ -46,21 +46,25 @@ CKAD PATH - kodekloud- Learning Linux Basics Course &amp; Labs
         - cd /HOME/rasid - back to specific directory
         -
     - ABSOLUTE path
-            - path from "root" directory to specific directory "Mumbai" 
-            - pwd - /HOME/rasid/Asia - **sitting at "Asia" directory**
-            - cd /HOME/rasid/Asia/India/Mumbai - "/" is the root directory. 
-            -
+        - path from "root" directory to specific directory "Mumbai" 
+        - pwd - /HOME/rasid/Asia - **sitting at "Asia" directory**
+        - cd /HOME/rasid/Asia/India/Mumbai - "/" is the root directory. 
+        -
     - RELATIVE path
-            - path from "current" directory to specific directory "Mumbai" 
-            - pwd - /HOME/rasid/Asia - **sitting at "Asia" directory**
-            - cd India/Mumbai - "/" is the root directory.
-            -
-    - mv -  move file or directory
+        - path from "current" directory to specific directory "Mumbai" 
+        - pwd - /HOME/rasid/Asia - **sitting at "Asia" directory**
+        - cd India/Mumbai - "/" is the root directory.
+        -
+    - mv source-directory destination-directory
         - mv source-dir destination-dir
-        - mv /HOME/rasid/Asia/India /HOME/rasid/America/NewYork - "India" directory will be moved inside "NewYork" directory
-        - cp source-file destination-dir
-        - cp /HOME/rasid/Asia/India/city.txt /HOME/rasid/America/NewYork - "city.txt" file will be moved inside "NewYork" directory
+        - mv /HOME/rasid/Asia/India /HOME/rasid/America/NewYork 
+        - "India" directory will go inside "NewYork" directory.
+        -
+    - cp source-file destination-directory
+        - cp /HOME/rasid/Asia/India/city.txt /HOME/rasid/America/NewYork 
+        - "city.txt" file will go inside "NewYork" directory.
         - cp -r - "-r" for recursive operations.
+        -
     - rm - remove a file or a directory
         - rm /HOME/rasid/Asia/India
     - cat - to print file content
