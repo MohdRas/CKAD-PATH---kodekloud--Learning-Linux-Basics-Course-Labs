@@ -5,7 +5,7 @@ CKAD PATH - kodekloud- Learning Linux Basics Course &amp; Labs
 #SHELL 
 - program that allows text-based-interaction between user & os.
 - one of such shell is "bash shell"
-- TYPE
+- #TYPE
     - linux shell - terminal
     - ubuntu desktop / graphical view
     -
