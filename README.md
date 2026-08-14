@@ -20,5 +20,13 @@ CKAD PATH - kodekloud- Learning Linux Basics Course &amp; Labs
      - internal / built-in - echo , cd, pwd
      - external - mv, date , uptime, cd
      - type "command" - it will tell us if a command is internal or external.
+- basic linux commands
+    - pwd -  present working directory > pwd
+    - ls - list contents > ls
+    - mkdir - make new "list of directories" 
+        - > mkdir Asia Europe Africa America 
+        - > mkdir Asia/India/Mumbai 
+        - > mkdir -p Asia/India/Mumbai - "-p" make sure parent directory also got created.
+    - cd - change directory > cd dir1
 
      
