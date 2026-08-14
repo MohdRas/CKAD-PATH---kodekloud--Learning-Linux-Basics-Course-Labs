@@ -22,6 +22,7 @@ CKAD PATH - kodekloud- Learning Linux Basics Course &amp; Labs
      - type "command" - it will tell us if a command is internal or external.
 - basic linux commands
     - pwd -  present working directory pwd
+    - pwd $home - print home directory
     - ls - list contents ls
     - mkdir - make new "list of directories" 
         - mkdir Asia Europe Africa America 
@@ -47,5 +48,10 @@ CKAD PATH - kodekloud- Learning Linux Basics Course &amp; Labs
         - cp -r - "-r" for recursive operations.
     - rm - remove a file or a directory
         - rm /home/rasid/Asia/India
+    - cat - to print file content
+        - cat fileName - print
+        - cat > fileName - open, edit & save ( control+d)
+    - touch - create a new file
+    
 
      
