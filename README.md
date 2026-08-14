@@ -116,6 +116,24 @@ CKAD PATH - kodekloud- Learning Linux Basics Course &amp; Labs
          - man cp
     - command --help    
         - cp --help 
+
+- shell types
+    - for communication between user and operating system.
+    - bourne shell ( sh ) for unix.
+    - c shell or t shell ( csh) 
+    - korn shell ( ksh)
+    - z shell ( zsh)
+    - bourne again shell ( bash )
+    - echo $SHELL - /bin/bash
+    - chsh - change the shell.
+- BASH shell features
+  - auto completion - tab key will help
+  - define alias
+    - alias dt=date
+    - dt
+  - history of commands
+    - history 
+    
     
 
      
