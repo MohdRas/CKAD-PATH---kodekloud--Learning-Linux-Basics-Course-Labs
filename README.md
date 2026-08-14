@@ -8,6 +8,7 @@ CKAD PATH - kodekloud- Learning Linux Basics Course &amp; Labs
 - TYPE
     - linux shell - terminal
     - ubuntu desktop / graphical view
+    -
 - HOME directory
     - Different for each user
     - other users cannot access the HOME directory.
@@ -24,10 +25,12 @@ CKAD PATH - kodekloud- Learning Linux Basics Course &amp; Labs
     - echo Hello World - Here "echo" is command and "Hello World" is an argument.
     - uptime - Here "uptime" is command.
     - echo -n Hello World - Here "-n" is a "SWITCH / FLAG" - printing without new line.
+    -
 - COMMANDS TYPES
      - internal / built-in - echo , cd, pwd
      - external - mv, date , uptime, cd
      - type "command" - it will tell us if a command is internal or external.
+     -
 - BASIC LINUX COMMANDS
     - pwd -  present working directory
     - ls - list contents ls
@@ -36,18 +39,22 @@ CKAD PATH - kodekloud- Learning Linux Basics Course &amp; Labs
         - cd Asia
         - mkdir India/Mumbai - It will try to create "Mumbai" inside "India". Because "India" does not exist so it failed.
         - mkdir -p India/Mumbai - "-p" make sure parent directory also got created.
+        -
     - cd - change directory cd dir1
         - cd .. -  one step back
         - cd  - back to HOME directory
         - cd /HOME/rasid - back to specific directory
-        - absolute path
-            - path from "root" to specific directory "Mumbai" 
-            - pwd - /HOME/rasid/Asia
+        -
+    - ABSOLUTE path
+            - path from "root" directory to specific directory "Mumbai" 
+            - pwd - /HOME/rasid/Asia - **sitting at "Asia" directory**
             - cd /HOME/rasid/Asia/India/Mumbai - "/" is the root directory. 
-        - relative path
+            -
+    - RELATIVE path
             - path from "current" directory to specific directory "Mumbai" 
-            - pwd - /HOME/rasid/Asia
+            - pwd - /HOME/rasid/Asia - **sitting at "Asia" directory**
             - cd India/Mumbai - "/" is the root directory.
+            -
     - mv -  move file or directory
         - mv source-dir destination-dir
         - mv /HOME/rasid/Asia/India /HOME/rasid/America/NewYork - "India" directory will be moved inside "NewYork" directory
